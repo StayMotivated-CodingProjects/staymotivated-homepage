@@ -10,12 +10,14 @@ class App extends Component {
 
         <header>
 
-          <h1>Stay Motivated - Coding Projects</h1>
+          <h1>
+              Stay Motivated - Coding Projects
+          </h1>
 
         </header>
 
         <menu>
-
+          <h1>Fork Test</h1>
         </menu>
 
         <main>
