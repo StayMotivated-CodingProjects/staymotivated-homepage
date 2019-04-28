@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
-import './App.css';
-import './Grid.css'
+import './css/App.css';
+import './css/Grid.css';
+
+import MailReg from './components/MailReg';
 
 class App extends Component {
   render() {
@@ -21,8 +23,12 @@ class App extends Component {
         </menu>
 
         <main>
-
+            <MailReg fieldText="Your Email Address to stay up to date!"   />
         </main>
+
+        <div className="preFooter">
+            <h1>For Twitter Github & Co</h1>
+        </div>
 
         <footer>
 
