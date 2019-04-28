@@ -1,0 +1,49 @@
+header{
+
+  background-color: lightblue;
+
+}
+
+header > h1{
+  font-family: 'Merriweather', serif;
+  font-size: 3.5em;
+  border: black solid 2px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+menu{
+  margin: 0;
+  background-color: darkorange;
+}
+
+main{
+  background-color: lightslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > .regField > form > #inpField{
+  border-radius: 20px;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+main > .regField > form > #subButton{
+  border: black solid 2px;
+  height: 40px;
+  width: 90px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.preFooter{
+  background-color: darkred;
+}
+
+footer{
+  background-color: chartreuse;
+}
