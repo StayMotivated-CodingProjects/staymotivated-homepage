@@ -1,0 +1,16 @@
+/*
+    ### MenueList.js
+*/
+
+ul{
+    list-style: none;
+    float: right;
+    margin: 5px 10px;
+    /*margin-right: 10px;*/
+    padding: 0;
+}
+
+ul > li{
+    color: lightblue;
+    font-size: 3em;
+}
