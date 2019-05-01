@@ -1,7 +1,5 @@
 header{
-
-  background-color: lightblue;
-
+  background: linear-gradient(180deg, black, lightblue);
 }
 
 header > h1{
@@ -10,18 +8,27 @@ header > h1{
   border: black solid 2px;
   border-radius: 20px;
   padding: 20px;
+  background-color: lightslategray;
+  box-shadow: 15px 15px 15px gray;
 }
 
 menu{
   margin: 0;
-  background-color: darkorange;
+  background-color: #38393B;
+  border-bottom: solid 1px white;
+}
+
+menu > h1{
+  margin: 10px auto;
+  color:white;
+  font-family: 'Lobster', cursive;
 }
 
 main{
-  background-color: lightslategrey;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(90deg,black,lightblue);
 }
 
 main > .regField > form > #inpField{
@@ -41,9 +48,18 @@ main > .regField > form > #subButton{
 }
 
 .preFooter{
-  background-color: darkred;
+  background: linear-gradient(90deg,black,lightblue);
 }
 
 footer{
-  background-color: chartreuse;
+  background-color: #38393B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > h3{
+  margin: 10px auto;
+/*  font-family: 'Lobster', cursive;*/
+  color: white;
 }

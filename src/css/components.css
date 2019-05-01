@@ -1,0 +1,32 @@
+/*
+    ### MenueList.js
+*/
+
+a:link, a:visited
+{
+    color: black;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    margin: 5px 10px;
+    padding: 0;
+}
+
+ul > li{
+    color: lightblue;
+    font-size: 3em;
+}
+
+/*
+    ### MailReg.js
+ */
+
+input{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

@@ -1,5 +1,8 @@
 import React from 'react'
 
+import '../css/components.css'
+
+
 
 function MailReg(props){
     return(
