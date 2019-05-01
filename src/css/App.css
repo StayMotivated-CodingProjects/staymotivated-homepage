@@ -1,7 +1,5 @@
 header{
-
-  background-color: lightblue;
-
+  background: linear-gradient(180deg, black, lightblue);
 }
 
 header > h1{
@@ -10,18 +8,24 @@ header > h1{
   border: black solid 2px;
   border-radius: 20px;
   padding: 20px;
+  background-color: lightslategray;
+  box-shadow: 15px 15px 15px gray;
 }
 
 menu{
   margin: 0;
-  background-color: darkorange;
+  background-color: lightslategray;
+}
+
+menu > h1{
+  margin: 10px auto;
 }
 
 main{
-  background-color: lightslategrey;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(90deg,black,lightblue);
 }
 
 main > .regField > form > #inpField{
@@ -41,9 +45,13 @@ main > .regField > form > #subButton{
 }
 
 .preFooter{
-  background-color: darkred;
+  background: linear-gradient(90deg,black,lightblue);
 }
 
 footer{
-  background-color: chartreuse;
+  background-color: lightslategray;
+}
+
+footer > h3{
+  margin: 10px auto;
 }

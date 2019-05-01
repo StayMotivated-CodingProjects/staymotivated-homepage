@@ -31,7 +31,7 @@ class App extends Component {
         </header>
 
         <menu>
-          <h1>Fork Test</h1>
+          <h1>About</h1>
         </menu>
 
         <main>
@@ -43,9 +43,8 @@ class App extends Component {
         </div>
 
         <footer>
-
+            <h3>Impressum</h3>
         </footer>
-
       </div>
     );
   }

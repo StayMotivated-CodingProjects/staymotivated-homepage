@@ -15,9 +15,9 @@ header{
 }
 
 menu{
-    display: flex;
+/*    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 
     grid-column: 1 / -1;
 }
